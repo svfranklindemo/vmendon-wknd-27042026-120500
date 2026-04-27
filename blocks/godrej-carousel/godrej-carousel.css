@@ -1,0 +1,149 @@
+.godrej-carousel .carousel-cards {
+    display: flex;
+    overflow: hidden;
+}
+
+.godrej-carousel .carousel-cards .card {
+    min-width: 249px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Hide all cards except the first 4 */
+.godrej-carousel .carousel-cards .card {
+    display: none;
+    transition: transform 0.3s ease; /* Add transition property for sliding effect */
+}
+
+.godrej-carousel .carousel-cards .card:nth-child(-n+4) {
+    display: block;
+    transform: translateX(0); /* Initial position for visible cards */
+}
+
+.section.godrej-carousel-container{
+    background-color: #F8F8F8;
+    margin-top: 100px;
+}
+.godrej-carousel{
+    .carousel-content{
+        padding-left: 17px;
+        margin-bottom: 20px;
+        h2{
+            font-size: 20px;
+            font-weight: 400;
+            color: #273043;
+            letter-spacing: -1px;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.itemTxtTop{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.itemTxtTopEditor{
+    width: 60%;
+    float: left;
+    font-size: 12px;
+    color: #1A78E5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    line-height: 1.2;
+    -webkit-line-clamp: 1;
+    height: calc(14px* 1.2* 1);
+}
+
+.itemTxtTopDate{
+    font-size: 13px;
+    width: 40%;
+    float: left;
+    color: rgba(0, 0, 0, .6);
+    line-height: 1.2;
+    text-align: right;
+}
+
+.itemTxt h3 {
+    height: calc(18px* 1.4* 3);
+    margin-bottom: 20px;
+    color: #000;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    /*height: calc(20px* 1.4* 3);*/ /* sm puts changes */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 500;
+}
+.itemInner {
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+}
+
+.godrej-carousel{
+    a{
+        background-color: transparent;
+    }
+    a, a:hover {
+        text-decoration: none;
+        transition: all .4s cubic-bezier(.25, .74, .22, .99);
+    }
+}
+
+.godrej-carousel .carousel-cards .card:hover {
+    background-color: white;
+    border-radius: 20px;
+    transition: all .4s cubic-bezier(.25, .74, .22, .99);
+}
+
+#prevBtn,#nextBtn{
+    position: relative;
+    top:-115px;
+    cursor: pointer;
+}
+
+#nextBtn{
+    left: 96%;
+}
+
+#prevBtn{
+    border: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    background: url(/icons/chevron-left.svg) left 3px top 2px / 19px no-repeat;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px;
+    outline: 0;
+}
+
+#nextBtn{
+    border: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    background: url(/icons/chevron-right.svg) left 3px top 2px / 19px no-repeat;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px;
+    outline: 0;
+}

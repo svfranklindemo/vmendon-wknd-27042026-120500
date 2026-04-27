@@ -1,0 +1,25 @@
+.blog main {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 70px;
+    background-color: #EDEFF4;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -.4px;
+    color: rgba(0, 0, 0, .6);
+  }
+  
+  .section.blog-container {
+    background-color: white;
+    padding: 60px 130px;
+    border-radius: 10px;
+  }
+  
+  .section.top-margin {
+    margin-top: 100px;
+  }
+
+  .section-metadata.display-none.block {
+    opacity: 0;
+}

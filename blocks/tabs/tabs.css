@@ -1,0 +1,110 @@
+.tabs .tabs-list {
+  display: flex;
+  gap: 0.5ch;
+  max-width: 100%;
+  font-size: var(--body-font-size-xs);
+  overflow-x: auto;
+}
+
+@media (width >=600px) {
+  .tabs .tabs-list {
+    font-size: var(--body-font-size-s);
+  }
+}
+
+@media (width >=900px) {
+  .tabs .tabs-list {
+    font-size: var(--body-font-size-m);
+  }
+}
+
+.tabs .tabs-list button {
+  flex: 0 0 max-content;
+  margin: 0;
+  border: 1px solid #dadada;
+  border-radius: 0;
+  padding: 0.5em;
+  background-color: var(--light-color);
+  color: initial;
+  font-weight: bold;
+  line-height: unset;
+  text-align: initial;
+  text-overflow: unset;
+  overflow: unset;
+  white-space: unset;
+  transition: background-color 0.2s;
+}
+
+.tabs .tabs-list button p {
+  margin: 0;
+}
+
+
+.tabs .tabs-list button[aria-selected='true'] {
+  border-bottom: 1px solid var(--background-color);
+  background-color: var(--background-color);
+  cursor: initial;
+}
+
+.tabs .tabs-panel {
+  margin-top: -1px;
+  padding: 24px;
+  border: 1px solid #dadada;
+  overflow: auto;
+}
+
+.tabs .tabs-panel[aria-hidden='true'] {
+  display: none;
+}
+
+/*code for dropdown*/
+/* Hide the dropdown by default */
+.tabs.with-fragment .dropdown {
+  display: none;
+}
+
+/* Show the dropdown on small screens */
+@media (max-width: 768px) {
+  .tabs.with-fragment .tabs-list {
+    display: none;
+  }
+
+  .tabs.with-fragment .dropdown {
+    display: block;
+    cursor: pointer;
+    display: block;
+    padding: 20px 0 10px;
+    border: none;
+    border-bottom: 1px solid #0d131d;
+    font-size: 1.6rem;
+    line-height: 2;
+    color: #0d131d;
+    font-family: 'Oxygen', serif;
+    font-weight: 700;
+    position: relative;
+    width: 310px;
+    display: block;
+    background: inherit;
+
+    option{
+      padding: 11px 0;
+      text-align: center;
+      display: block;
+      background: transparent;
+      transition: all 1s ease;
+      font-size: 1.6rem;
+      line-height: 2;
+      margin: 0 10px;
+      border-bottom: 0 none;
+      color: #0d131d;
+      opacity: 1;
+    }
+
+    option.selected{
+      background-color: #f5f4f3;
+      color: #3F6470;
+      transition: all 1s ease;
+      border-bottom: 0 none;
+    }
+  }
+}

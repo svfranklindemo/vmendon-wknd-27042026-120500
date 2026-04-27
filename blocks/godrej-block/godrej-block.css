@@ -1,0 +1,113 @@
+.godrej-block.published-date .godrej-container .content {
+  font-weight: 400;
+  letter-spacing: normal;
+  font-size: 10px;
+  margin-bottom: 25px;
+  opacity: 1;
+  color: #00000099 !important;
+  text-transform: capitalize !important;
+}
+
+.godrej-block.blog-heading .godrej-container .content h1 {
+  color: #000;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Oxygen', sans-serif;
+  line-height: normal;
+}
+
+.godrej-block.quote-text .godrej-container .content strong {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+}
+
+.godrej-block.blog-text .godrej-container .content p {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.godrej-block.blog-text .godrej-container .content p a {
+  text-decoration: none;
+  color: #AD1E56;
+  word-break: break-all;
+}
+
+.godrej-block {
+  margin-bottom: 20px;
+}
+
+.columns-wrapper.godrej-columns .columns {
+  display: flex;
+}
+
+.godrej-block.tags-div .godrej-container {
+  display: flex;
+}
+
+.godrej-block.tags-div .godrej-container .content {
+  width: 10%;
+  margin-right: 20px;
+}
+
+.godrej-block.tags-div .godrej-container :nth-child(2) ul {
+  margin-top: 0px;
+  display: inline;
+  margin-bottom: 35px;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.godrej-block.tags-div .godrej-container :nth-child(2) ul li {
+  padding: 8px 15px;
+  margin-right: 15px !important;
+  margin-bottom: 10px !important;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+
+.blog .default-content-wrapper h4,.blog h4  {
+  line-height: 1.28;
+  color: rgba(0, 0, 0, .87);
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Oxygen', sans-serif;
+  font-style: normal;
+  letter-spacing: -.4px;
+}
+
+.blog .default-content-wrapper h4::after,.blog h4::after  {
+  content: none;
+}
+.godrej-block.blog-heading.centre-align .godrej-container .content{
+  display: flex;
+  justify-content: center;
+}
+
+.godrej-block.blog-heading.centre-align .godrej-container .content .h1{
+  font-size: 62px;
+  color: #273043;
+  letter-spacing: -3px;
+}

@@ -1,0 +1,16 @@
+.h5p-content ul.h5p-actions {
+    display: none;
+}
+
+.interactive-video {
+    width: 100%;
+    height: 720px;
+
+    @media (width<=768px) {
+        height: 400px;
+    }
+}
+
+.embed{
+    margin-bottom: 100px;
+}
